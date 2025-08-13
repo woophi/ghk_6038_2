@@ -3,6 +3,7 @@ import { Collapse } from '@alfalab/core-components/collapse';
 import { Gap } from '@alfalab/core-components/gap';
 import { PureCell } from '@alfalab/core-components/pure-cell';
 import { Typography } from '@alfalab/core-components/typography';
+import { BanknotesLineMIcon } from '@alfalab/icons-glyph/BanknotesLineMIcon';
 import { BulbMIcon } from '@alfalab/icons-glyph/BulbMIcon';
 import { ChevronDownMIcon } from '@alfalab/icons-glyph/ChevronDownMIcon';
 import { ChevronUpMIcon } from '@alfalab/icons-glyph/ChevronUpMIcon';
@@ -25,6 +26,11 @@ const items = [
     title: 'Приоритетная поддержка',
     text: 'Любой вопрос в чате Альфа-Инвестиций решится быстрее',
     IconComp: CrownMIcon,
+  },
+  {
+    title: 'Мгновенный вывод 100 000 ₽ в месяц',
+    text: 'Без подписки — до 3 рабочих дней',
+    IconComp: BanknotesLineMIcon,
   },
   {
     title: 'Уведомления по портфелю',
